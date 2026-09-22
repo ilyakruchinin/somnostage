@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: SomnoStage
+message: If you use or reference SomnoStage, please cite it as below.
+type: software
+authors:
+  - family-names: Kruchinin
+    given-names: Ilya
+version: v4.2.3-dev
+date-released: '2026-09-21'
+repository-code: https://github.com/ilyakruchinin/somnostage
+url: https://github.com/ilyakruchinin/somnostage
+license: LicenseRef-Proprietary
+abstract: >-
+  On-device sleep staging (Wake / Light / Deep / REM) for SomnoTrace
+  firmware, using continuous finger pulse oximetry, pulse rate, and motion
+  on an ESP32-S3.

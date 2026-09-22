@@ -1,0 +1,32 @@
+# Model artifacts and key material — never commit (see LICENSE-MODEL.txt)
+model.enc
+model.sstp
+*.lgbm
+*.lgbm.txt
+key*.h
+key_*.inc
+_ka.inc
+_kb.inc
+_k*.inc
+mask*.h
+*.key
+*.secret
+model.manifest.json
+manifest.json
+
+# Credentials / secrets — never commit
+.env
+*.pem
+
+# Training data / feature fixtures — never commit
+*.npz
+*.parquet
+*.sstf
+*.sstr
+*.sstx
+
+# Scratch / build output
+.ai/
+build/
+dist/
+*.bin

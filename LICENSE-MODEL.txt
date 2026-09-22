@@ -1,0 +1,175 @@
+================================================================================
+SOMNOSTAGE MODEL LICENSE TERMS
+================================================================================
+
+Version 1.0
+
+Copyright (c) 2026 Ilya Kruchinin. All rights reserved.
+
+These terms govern use of the SomnoStage machine-learning model (the "Model").
+By using the Model, or any firmware or product containing it, you agree to
+these terms. If you do not agree, do not use the Model.
+
+--------------------------------------------------------------------------------
+1. DEFINITIONS
+--------------------------------------------------------------------------------
+
+"Model" means the SomnoStage sleep-staging machine-learning model — including
+its trained parameters, weights, structure, decoder configuration, and any
+encrypted, packed, or otherwise encoded representation of them — together
+with any accompanying manifest or documentation identifying the Model. The
+Model is licensed in binary form only; no source form of the Model is
+licensed or provided.
+
+"Licensor" means the copyright holder of the Model, Ilya Kruchinin.
+
+"Official SomnoTrace Build" means a firmware binary that (a) is built from
+the official SomnoTrace source repository at
+https://github.com/ilyakruchinin/SomnoTrace, (b) is produced by the SomnoTrace
+project's official build pipeline — the GitHub Actions workflows in that
+repository — or otherwise produced and distributed under the project's
+authority, and (c) embeds the Model.
+
+--------------------------------------------------------------------------------
+2. GRANT OF LICENSE
+--------------------------------------------------------------------------------
+
+Subject to these terms, the Licensor grants you a non-exclusive,
+non-transferable, non-sublicensable, royalty-free (free of charge) license
+to use the Model solely in binary form, as embedded within an Official
+SomnoTrace Build, for its intended purpose of estimating sleep stages from
+physiological signals recorded by that firmware.
+
+No other rights are granted. No license is granted to any firmware, build,
+product, or service that does not meet the definition of an Official
+SomnoTrace Build. All rights not expressly granted are reserved.
+
+--------------------------------------------------------------------------------
+3. RESTRICTIONS
+--------------------------------------------------------------------------------
+
+You may not, except where such restriction is prohibited by applicable law:
+
+  a. extract, copy, or export the Model, in whole or in part, from an
+     Official SomnoTrace Build or any other distribution;
+
+  b. redistribute, publish, sell, rent, lease, lend, or otherwise make the
+     Model available to any third party, whether embedded in another product
+     or standalone;
+
+  c. reverse engineer, decompile, disassemble, or otherwise attempt to derive
+     the Model's parameters, structure, or training data;
+
+  d. modify, adapt, translate, or create derivative works of the Model;
+
+  e. remove, alter, or obscure any copyright notice, license notice,
+     watermark, or identifier embedded in or accompanying the Model;
+
+  f. circumvent, disable, or tamper with any technical measure protecting
+     the Model, including encryption or integrity mechanisms. You
+     acknowledge that such circumvention may also violate applicable
+     anti-circumvention laws (including DMCA §1201 and the EUCD) in addition
+     to breaching these terms;
+
+  g. use the Model to develop, train, validate, or improve any competing
+     model or product; or
+
+  h. use the Model in any product, firmware, or service other than an
+     Official SomnoTrace Build.
+
+Any documentation, publication, or other material you produce that
+describes, reproduces, or derives from the Model or its outputs must credit
+SomnoStage and the copyright holder.
+
+--------------------------------------------------------------------------------
+4. SCOPE — WHAT THIS LICENSE DOES NOT COVER
+--------------------------------------------------------------------------------
+
+The free license in Section 2 applies solely to Official SomnoTrace Builds.
+It does not extend — by implication, estoppel, or otherwise — to:
+
+  a. any fork of the SomnoTrace firmware;
+
+  b. any firmware built from modified SomnoTrace source code;
+
+  c. any firmware built or distributed outside the official SomnoTrace
+     project; or
+
+  d. any other product, service, or integration.
+
+The SomnoTrace firmware is licensed separately under the GNU General Public
+License v3. The Model is a separate, independent work that is not licensed
+under the GPL and is not covered by it. Forking, modifying, or redistributing
+the SomnoTrace firmware under GPLv3 grants no rights in the Model. Nothing in
+these terms restricts your rights under the GPLv3 in the SomnoTrace firmware
+source code itself, independent of the Model.
+
+--------------------------------------------------------------------------------
+5. COMMERCIAL LICENSING
+--------------------------------------------------------------------------------
+
+Use of the Model outside Official SomnoTrace Builds — including in forks,
+third-party products, hosted services, and other integrations — requires a
+separate written license from the Licensor. Commercial licenses are
+available and may be subject to a fee.
+
+Licensing enquiries: somnostage@duck.com, or open an issue at
+https://github.com/ilyakruchinin/somnostage/issues.
+
+--------------------------------------------------------------------------------
+6. NO MEDICAL USE
+--------------------------------------------------------------------------------
+
+The Model is not a medical device and has not been evaluated, cleared, or
+approved by any regulatory authority. Its output is an estimate of sleep
+stages for informational purposes only and must not be used to diagnose,
+treat, or rule out any disease or condition, or to inform medical decisions.
+
+--------------------------------------------------------------------------------
+7. TERMINATION
+--------------------------------------------------------------------------------
+
+This license terminates automatically upon any breach of these terms. Upon
+termination you must cease all use of the Model and destroy any copies in
+your possession or control.
+
+--------------------------------------------------------------------------------
+8. DISCLAIMER OF WARRANTY
+--------------------------------------------------------------------------------
+
+THE MODEL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. THE
+LICENSOR DOES NOT WARRANT THAT THE MODEL'S OUTPUT WILL BE CORRECT,
+CONSISTENT, OR SUITABLE FOR ANY PURPOSE.
+
+--------------------------------------------------------------------------------
+9. LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+PUNITIVE DAMAGES, OR ANY LOSS OF DATA, PROFITS, OR HEALTH OUTCOMES, ARISING
+OUT OF OR RELATED TO THE USE OR INABILITY TO USE THE MODEL, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGES. THE LICENSOR'S TOTAL LIABILITY SHALL NOT
+EXCEED THE AMOUNT PAID BY YOU FOR THE LICENSE, WHICH IS ZERO FOR THE GRANT IN
+SECTION 2.
+
+--------------------------------------------------------------------------------
+10. TRADEMARKS
+--------------------------------------------------------------------------------
+
+These terms grant no rights in the "SomnoStage" or "SomnoTrace" names, logos,
+or trademarks. Factual, descriptive references — for example, stating
+compatibility with official SomnoTrace builds — are permitted; any other use
+requires prior written permission from the Licensor.
+
+--------------------------------------------------------------------------------
+11. GENERAL
+--------------------------------------------------------------------------------
+
+These terms constitute the entire agreement regarding the Model. If any
+provision is held unenforceable, the remainder continues in effect. Failure
+to enforce any provision is not a waiver.
+
+Governing law and jurisdiction: Victoria, Australia.
